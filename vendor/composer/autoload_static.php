@@ -27,6 +27,10 @@ class ComposerStaticInit45ee3f4630eb3f0de381ab0da3be0561
             'Leaf\\Http\\' => 10,
             'Leaf\\' => 5,
         ),
+        'A' => 
+        array (
+            'App\\' => 4,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -45,10 +49,14 @@ class ComposerStaticInit45ee3f4630eb3f0de381ab0da3be0561
         'Leaf\\' => 
         array (
             0 => __DIR__ . '/..' . '/leafs/anchor/src',
-            1 => __DIR__ . '/..' . '/leafs/form/src',
-            2 => __DIR__ . '/..' . '/leafs/fs/src',
-            3 => __DIR__ . '/..' . '/leafs/exception/src',
+            1 => __DIR__ . '/..' . '/leafs/exception/src',
+            2 => __DIR__ . '/..' . '/leafs/form/src',
+            3 => __DIR__ . '/..' . '/leafs/fs/src',
             4 => __DIR__ . '/..' . '/leafs/leaf/src',
+        ),
+        'App\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app',
         ),
     );
 

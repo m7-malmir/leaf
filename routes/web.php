@@ -1,15 +1,13 @@
 <?php
 use Leaf\App;
+use App\Controllers\HomeController;
 
 $app = new App();
 
-$app->get('/', function () {
-    echo "Welcome to the Blog!";
-});
-
-// صفحه درباره ما
-$app->get('/about', function () {
-    echo "This is the about page.";
+// صفحه اصلی
+$app->get('/', function() {
+    $controller = new HomeController();
+    return $controller->index();
 });
 
 $app->run();

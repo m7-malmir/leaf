@@ -1,5 +1,10 @@
 {
     "require": {
         "leafs/leaf": "^3.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
     }
 }
