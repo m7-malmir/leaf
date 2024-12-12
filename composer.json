@@ -1,6 +1,7 @@
 {
     "require": {
-        "leafs/leaf": "^3.9"
+        "leafs/leaf": "^3.9",
+        "vlucas/phpdotenv": "^5.6"
     },
     "autoload": {
         "psr-4": {

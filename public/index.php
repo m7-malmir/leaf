@@ -3,6 +3,16 @@
 require __DIR__ . '/../vendor/autoload.php';
 require __DIR__ . '/../routes/web.php';
 
+
+use App\Models\Database;
+
+$db = Database::connect();
+
+if ($db) {
+    echo "Database connected successfully!";
+} else {
+    echo "Failed to connect to database.";
+}
 ?>
 <!DOCTYPE html>
 <html lang="fa">

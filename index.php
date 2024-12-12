@@ -1,11 +1,5 @@
 <?php
+// مسیریابی به فایل اصلی index.php در پوشه public
+require __DIR__ . '/public/index.php';
 
-require __DIR__ . '/vendor/autoload.php';
 
-$app = new Leaf\App;
-
-$app->get('/', function () use($app) {
-  $app->response()->json(['message' => 'Hello World!']);
-});
-
-$app->run();
