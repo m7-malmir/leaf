@@ -1,4 +1,7 @@
 <header>
+    <div class="logo">
+        <img src="<?php echo $baseUrl . 'assets/img/logo1.png'; ?>" alt="ErisWeb Logo">
+    </div>
     <nav>
         <ul>
             <li><a href="/">صفحه اصلی</a></li>
