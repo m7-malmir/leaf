@@ -557,3 +557,11 @@ video {
 .static {
   position: static;
 }
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}

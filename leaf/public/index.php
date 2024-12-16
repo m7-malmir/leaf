@@ -40,7 +40,7 @@ $baseUrl = $app->config('base_url');
         <section class="courses">
             <h2>دوره‌های آموزشی</h2>
             <p>آموزش‌های جدید و جذاب برای شما آماده شده است. با ما همراه باشید!</p>
-            <div class="course-list">
+            <div class="course-list flex justify-between">
                 <div class="course">
                     <div class="course-image">
                         <img src="https://via.placeholder.com/350x200" alt="دوره Laravel">
